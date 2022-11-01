@@ -1,0 +1,35 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.info-container {
+  width: 70%;
+  height: 85%;
+  background-color: rgb(243, 243, 243);
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(101, 92, 92);
+  margin-bottom: 50px;
+}
+.name {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.name > span {
+  display: inline-block;
+  width: 200px;
+}
+.name > span:nth-child(1) {
+  font-weight: bold;
+  font-size: 22px;
+}
+.info-body {
+  margin: auto 0;
+}
