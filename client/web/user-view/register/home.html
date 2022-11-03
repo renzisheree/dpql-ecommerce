@@ -19,7 +19,7 @@
 
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="design.css" />
-     
+     <script src="./register.js" defer></script>
 
       <title>Register</title>
     
@@ -174,21 +174,33 @@
         
           <h3>Tạo tài khoản</h3>
         <hr class="line" />
+
+        <div class="error-check">
+          <div id="message">
+            <h6>Password must contain the following:</h6>
+            <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+            <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+            <p id="number" class="invalid">A <b>number</b></p>
+            <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+          </div>
+        
+        </div>
         </div>
      
       <div class="form_subr">
         <div>
           <div class="input">
-            <input class="input_in" type="text" placeholder="Họ" />
+            <input class="input_in"  type="text" id="i-input_in-ho" placeholder="Họ" /> <span id="i-input_in-ho_error"></span>
           </div>
           <div class="input">
-            <input class="input_in" type="text" placeholder="Tên" />
+            <input class="input_in" type="text" id="i-input_in-ten" placeholder="Tên" />  <span id="i-input_in-ten_error"></span>
           </div>
           <div class="input">
-            <input class="input_in" type="text" placeholder="Email" />
+            <input class="input_in" type="text" id="i-input_in-email" placeholder="Email" />  <span id="i-input_in-email_error"></span>
           </div>
           <div class="input">
-            <input class="input_in" type="text" placeholder="Password" />
+            <input class="input_in" name="psw" type="text" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" id="i-input_in-password" placeholder="Password" />   
+            <span id="i-input_in-password_error"></span>
           </div>
         </div>
         <div class="mini-title1">
@@ -203,7 +215,7 @@
           </p>
         </div>
         <div>
-          <button>ĐĂNG KÝ</button>
+          <button onclick="validate()" type="button">ĐĂNG KÝ</button>
         </div>
         <div class="return">
           <a class="back" href="../landingpage/Home.html"> Quay lại trang chủ </a>
@@ -291,6 +303,7 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
 </script>
 <script src="Home.js"></script>
 </div>
