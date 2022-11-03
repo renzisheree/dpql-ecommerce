@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica";
+  font-weight: normal;
+  font-size: 20px;
+}
+@font-face {
+  font-family: Helvetica;
+  src: url("/src/fonts/*") format("truetype");
+}
+
+body {
+  font-family: "Helvetica" sans-serif;
+}
+
+.subcribe {
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(185, 185, 185);
+}
+.sub-title > * {
+  font-size: 30px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.sub-input > * {
+  padding: 7px 10vw;
+  border-radius: 3px;
+}
+.contact-info > * {
+  font-size: 20px;
+}
+.footer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 5vh;
+}
+.footer1,
+.footer2,
+.footer3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  font-size: 0.75em;
+  border: none;
+  outline: none;
+  background-color: gray;
+  color: darkgray;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#to-top:hover {
+  background-color: white;
+}
+@media screen and (max-width: 1023px) {
+  .header_upper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-upper > * {
+    margin-bottom: 30px;
+  }
+  .body-lower_items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .item-container {
+    width: 45vw;
+  }
+  .footer {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer > * {
+    margin-top: 2em;
+  }
+  .subcribe {
+    flex-direction: column;
+  }
+
+  .subcribe > * {
+    margin-top: 2em;
+  }
+  .header_login-cart {
+    display: none;
+  }
+  .hidden_header_login-cart {
+    display: flex;
+  }
+  .header_hotline {
+    margin-left: 4em;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .body-lower2_item {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .lower2_item > img {
+    width: 100vw;
+  }
+  .footer {
+    align-items: center;
+  }
+  .product-holder {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .product-list,
+  .product-list > img {
+    width: 45vw;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
