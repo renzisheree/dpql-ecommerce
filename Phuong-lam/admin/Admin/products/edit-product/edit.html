@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EditProducts</title>
+    <link rel="stylesheet" href="edit.css" />
+  </head>
+  <body>
+    <div class="backchome-products">
+      <a href="#" class="backhome">Quay lại trang chủ</a>
+    </div>
+    <div class="edit-products">
+      <div>
+        <p class="header-edit-product-admin">CEMMERY</p>
+        <p class="title-edit-product">/Edit Products/</p>
+      </div>
+    </div>
+    <div class="main-content-edit">
+      <fieldset class="edit-content-product">
+        <legend>Thông tin sản phẩm</legend>
+        <p>
+          <span class="content-edit">Ảnh trước:</span
+          ><input class="edit-product-input" type="file" />
+        </p>
+        <p>
+          <span class="content-edit">Ảnh sau:</span
+          ><input class="edit-product-input" type="file" />
+        </p>
+        <p>
+          <span class="content-edit">Tên sản phẩm:</span>
+          <input class="edit-product-input" type="text" />
+        </p>
+        <p>
+          <span class="content-edit">Giá:</span>
+          <input class="edit-product-input" type="number" min="0" />
+        </p>
+        <p>
+          <span class="content-edit">Mô tả:</span>
+          <textarea class="edit-product-input" type="text"></textarea>
+        </p>
+        <div class="edit-product-btn-admin">
+          <button class="edit-product-btn" type="reset">Reset</button>
+          <button class="edit-product-btn" type="submit">Save</button>
+        </div>
+      </fieldset>
+    </div>
+  </body>
+</html>

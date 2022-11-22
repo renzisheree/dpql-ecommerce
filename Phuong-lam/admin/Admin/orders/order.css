@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+}
+.backchome-products{
+    background-color: #4bb6fa;
+}
+.backhome{
+    text-decoration: none;
+    color: white;
+}
+.backhome:hover{
+    color: #135882;
+}
+.header-order-admin{
+    font-size: 50px;
+    padding-left: 40%;
+    font-weight: 700; 
+    padding-top: 30px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AddProducts</title>
+    <link rel="stylesheet" href="add.css" />
+  </head>
+  <body>
+    <div class="backchome-products">
+      <a href="#" class="backhome">Quay lại trang chủ</a>
+    </div>
+    <div class="add-products">
+      <div>
+        <p class="header-add-product-admin">CEMMERY</p>
+        <p class="title-add-product">/Add Products/</p>
+      </div>
+    </div>
+    <div class="main-content-add">
+      <fieldset class="add-content-product">
+        <legend>Thông tin sản phẩm</legend>
+        <p>
+          <span class="content-add">Ảnh trước:</span
+          ><input class="add-product-input" type="file" />
+        </p>
+        <p>
+          <span class="content-add">Ảnh sau:</span
+          ><input class="add-product-input" type="file" />
+        </p>
+        <p>
+          <span class="content-add">Tên sản phẩm:</span>
+          <input class="add-product-input" type="text" />
+        </p>
+        <p>
+          <span class="content-add">Giá:</span>
+          <input class="add-product-input" type="number" min="0" />
+        </p>
+        <p>
+          <span class="content-add">Mô tả:</span>
+          <textarea class="add-product-input" type="text"></textarea>
+        </p>
+        <div class="add-product-btn-admin">
+          <button class="add-product-btn" type="reset">Reset</button>
+          <button class="add-product-btn" type="submit">Save</button>
+        </div>
+      </fieldset>
+    </div>
+  </body>
+</html>

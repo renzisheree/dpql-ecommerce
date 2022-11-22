@@ -1,0 +1,26 @@
+.thanks-page{
+    font-family: "Helvetica Neue", sans-serif;
+    padding-top: 100px;
+    text-align: center;
+}
+.thanks-img{
+    width: 150px;    
+}
+.completed{
+    font-size: 40px;
+    color: #4aa6fa;
+}
+.thanks-btn{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    color: #4aa6fa;
+    background-color:white;
+    border: 1.5px solid #4aa6fa;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.thanks-btn:hover{
+    background-color: #4aa6fa;
+    color: white;
+}
