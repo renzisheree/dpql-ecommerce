@@ -36,13 +36,12 @@
 }
 .admin-product_body{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
     grid-column-gap: 2%;
     grid-row-gap:20px;
     justify-items: center;
 }
-.admin-product_main{
-    
+.admin-product_main{    
     width: 270px;
     box-shadow: 5px 5px 5px 1px rgb(109, 110, 111);
 }
