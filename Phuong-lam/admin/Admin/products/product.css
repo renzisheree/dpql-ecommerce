@@ -43,16 +43,15 @@
 }
 .admin-product_main{
     
-    width: 250px;
+    width: 270px;
     box-shadow: 5px 5px 5px 1px rgb(109, 110, 111);
 }
 .admin-product_img{
-    width: 250px;
+    width: 270px;
 }
 .admin-product_name{
     font-size: 25px;
     font-weight: 600;    
-    overflow-wrap: break-word;
 }
 .admin-product_price{
     font-size: 20px;
