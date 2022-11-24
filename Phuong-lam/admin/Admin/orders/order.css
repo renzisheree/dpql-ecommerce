@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-family: "Helvetica Neue", sans-serif;
 }
 .backchome-products{
     background-color: #4bb6fa;
@@ -11,9 +12,48 @@
 .backhome:hover{
     color: #135882;
 }
-.header-order-admin{
-    font-size: 50px;
-    padding-left: 40%;
+.admin-order_header{
+    font-size: 70px;
     font-weight: 700; 
-    padding-top: 30px;
+    padding: 30px;
+    text-align: center;
+}
+.all-orders{
+    margin-left: 2.5vw;
+    width: 95vw;
+    height: 80px;
+}
+.admin-order_header-content{
+    border: 0.2px solid black;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    background-color: #1d86c7;
+    text-align: center;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 10% 20% 12.5% 25% 8% 12% 12.5%;
+    /* vertical-align: center; */
+}
+.admin-order_content{
+    overflow: hidden;
+    border-right: 1px solid black;
+    height: 100%;
+    justify-items: center;
+    
+}
+.admin-order_info{
+    border: 1px solid grey;
+    border-top: none;
+    height: 40px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 10% 20% 12.5% 25% 8% 12% 12.5%;
+}
+.admin-order_properties{
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-right: 1px solid grey;
 }
