@@ -106,8 +106,10 @@ ul li {
   background-color: #fff;
   height: 30vh;
   border-radius: 5px;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+  padding-top: 16.5%;
   width: 35vw;
   font-size: 22px;
   color: white;

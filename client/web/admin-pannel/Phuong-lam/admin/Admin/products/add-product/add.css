@@ -3,10 +3,12 @@
 }
 .backchome-products{
     background-color: #4bb6fa;
+    padding: 5px;
 }
 .backhome{
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 .backhome:hover{
     color: #135882;

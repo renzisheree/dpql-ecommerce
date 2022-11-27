@@ -4,10 +4,12 @@
 }
 .backchome-products{
     background-color: #4bb6fa;
+    padding: 5px;
 }
 .backhome{
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 .backhome:hover{
     color: #135882;
@@ -34,6 +36,7 @@
     display: grid;
     grid-template-columns: 10% 20% 12.5% 25% 8% 12% 12.5%;
     /* vertical-align: center; */
+    /* margin: auto auto; */
 }
 .admin-order_content{
     overflow: hidden;
